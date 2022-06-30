@@ -85,15 +85,26 @@ header{
 .header-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-.header-container button{
-    padding: 0px 20px;
+.header-container a{
+    margin: 10px 3px;
     margin-left: 3px;
     box-shadow: none;
     border: none;
     background: #acbabf;
     color: #373737;
 }
+.header-container button{
+  
+    margin: 10px 3px;
+    margin-left: 3px;
+    box-shadow: none;
+    border: none;
+    background: #acbabf;
+    color: #373737;
+}
+
 .clock {
     width: 40px;
     height: 40px;
@@ -662,9 +673,7 @@ i {
         width: 50%;
         text-align: center;
         box-sizing: border-box;
-        /* padding-left: 75px; */
         justify-content: flex-start;
-        /* flex-direction: row; */
         flex-wrap: nowrap;
         margin: 0 auto;
    }
