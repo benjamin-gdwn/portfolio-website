@@ -76,7 +76,7 @@ header{
     margin:0 0;
     padding: 10px 0;
     color: #373737;
-    font-family: 'Warnes', cursive;
+    font-family: 'Offside', cursive;
     width: 100%;
     min-height: 100px;
     box-sizing: border-box;
@@ -214,7 +214,7 @@ header{
     font-family: 'Offside', cursive;
 }
 .projects h3{
-    font-family: 'Warnes', cursive;
+    font-family: 'Offside', cursive;
     text-decoration: underline;
     font-size: 1.75em;
 }
@@ -223,27 +223,7 @@ header{
     font-family: 'Unica One', cursive;
     font-size: 1.5em;
 }
-.projects i{
-    font-size: 5em;
-    animation: mymove 5s infinite;
-}
-@keyframes mymove {
-    100% {
-       transform: rotate(360deg);
-   }
-}
-.projects i:hover{
-    animation: none;
-}
-.projects i:hover::after{
-    content: 'View Project';
-    font-size: 0.3em;
-    font-weight: 900;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-}
+
 .right-project-container{
     width: 100%;
     display: flex;
@@ -272,6 +252,30 @@ header{
     align-items: center;
     flex-direction: column;
 }
+#projects a{
+    max-width: 150px;
+    max-height: 150px;
+}
+#projects img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 5px solid #ff9201;
+}
+#projects img:hover {
+    filter: brightness(50%);
+    box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
+    transform: scaleX(1.1);
+    transform: scaleY(1.1);
+
+}
+#projects p{
+    max-width: 300px;
+    border-bottom: 1px solid white;
+    padding: 3px;
+
+}
 .skills-tools{
     display: flex;
     justify-content: center;
@@ -280,6 +284,7 @@ header{
     color: #fff;
     font-family: 'Offside', cursive;
 }
+
 .skills-container{
     display: flex;
     justify-content: center;
@@ -287,7 +292,7 @@ header{
     margin: 0 auto;
 }
 .skills-tools h3{
-    font-family: 'Warnes', cursive;
+    font-family: 'Offside', cursive;
     text-decoration: underline;
     font-size: 1.75em;
 }
@@ -326,7 +331,8 @@ aside{
 }
 aside h3{
     margin: 20px auto;
-    font-family: 'Warnes', cursive;
+    font-family: 'Offside', cursive;
+    font-size: 1.4em;
     text-decoration: underline;
 }
 .about-container{
@@ -362,6 +368,10 @@ aside h3{
     max-width: 350px;
     margin-bottom: 40px;
 }
+.enlarge{
+    
+    line-height: 1.5em;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -380,13 +390,9 @@ i {
     background: #b3d4fc;
     border-radius: 55px;
     color: #ff9201;
-    animation: iconmove 1.5s infinite;
+    
 }
-@keyframes iconmove {
-    25% {
-       transform: rotate(90deg);
-   }
-}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Modal Image Box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .modal {
