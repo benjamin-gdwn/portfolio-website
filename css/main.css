@@ -141,7 +141,7 @@ header{
     text-decoration: none;
     color: #373737;
 }
-.header-container button a:hover{
+.header-container button:hover{
     background: #373737;
     color: #acbabf;
    /* padding: 0 2px;
@@ -272,7 +272,6 @@ header{
 }
 #projects p{
     max-width: 300px;
-    border-bottom: 1px solid white;
     padding: 3px;
 }
 .skills-tools{
