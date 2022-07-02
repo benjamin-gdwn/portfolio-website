@@ -205,6 +205,8 @@ button:hover{
     line-height: 1.3em;
 }
 .projects{
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
