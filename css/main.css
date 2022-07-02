@@ -141,7 +141,7 @@ header{
     text-decoration: none;
     color: #373737;
 }
-.header-container button:hover{
+button:hover{
     background: #373737;
     color: #acbabf;
    /* padding: 0 2px;
