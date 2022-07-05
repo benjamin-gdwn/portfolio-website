@@ -274,7 +274,6 @@ header{
     max-width: 300px;
     border-bottom: 1px solid white;
     padding: 3px;
-
 }
 .skills-tools{
     display: flex;
@@ -335,15 +334,20 @@ aside h3{
     font-size: 1.4em;
     text-decoration: underline;
 }
+#about {
+    width: 100%;
+}
 .about-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    width: 66%;
+    margin: 0 auto;
 }
 .about-container img{
-  margin: auto;
-    padding: 5px;
+    margin: auto;
+    /* padding: 5px; */
     height: auto;
     opacity: 0.8;
     border-radius: 15px;
@@ -357,16 +361,18 @@ aside h3{
     width: 80%;
 }
 .about-items{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .about-items img{
-    height: 20em;
     border: 2px solid #ff9201;
     max-width: 350px;
     margin-bottom: 40px;
+    width: 100%;
 }
 .enlarge{
     
@@ -619,6 +625,7 @@ i {
     .about-container{
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
    }
     .about-container h3{
         width: 100%;
@@ -627,11 +634,13 @@ i {
     .about-container .about-items{
         flex-direction: row;
         align-items: flex-start;
+        flex-wrap: wrap;
    }
     .about-items p {
         width: 40%;
         margin: 50px 50px;
    }
+   
    }
     .footer-column-left{
         width: 100%;
@@ -651,6 +660,16 @@ i {
 @media only screen and (min-width: 1100px){
     .about-items img{
         max-height: 275px;
+        margin: 0 auto;
+   }
+   .about-items p {
+       margin: 0 auto;
+   }
+   .skills-tools-container{
+       width: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
    }
     .skills-tools .skills-container{
         text-align: center;
@@ -660,7 +679,7 @@ i {
         /* flex-direction: row; */
         flex-wrap: nowrap;
         margin: 0 auto;
-        width: 33%;
+        width: 50%;
    }
     .skills-container h4{
         margin-bottom: 50px;
@@ -668,8 +687,9 @@ i {
         width: 100%;
    }
     .skills-container div{
+        padding-left: 50px;
         justify-content: flex-start;
-        width: 38%;
+        width: 66%;
         align-items: center;
         margin: 0 auto;
 
@@ -690,7 +710,7 @@ i {
     .tools-container div{
         justify-content: flex-start;
         flex-wrap: wrap;
-        width: 38%;
+        width: 50%;
         align-items: center;
         margin: 0 auto;
 
