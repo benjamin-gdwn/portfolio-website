@@ -272,7 +272,6 @@ header{
 }
 #projects p{
     max-width: 300px;
-    border-bottom: 1px solid white;
     padding: 3px;
 }
 .skills-tools{
