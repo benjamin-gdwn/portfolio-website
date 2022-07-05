@@ -343,7 +343,7 @@ aside h3{
     align-items: flex-start;
     flex-direction: column;
     width: 66%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .about-container img{
     margin: auto;
